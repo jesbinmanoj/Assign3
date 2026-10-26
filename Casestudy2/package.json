@@ -1,0 +1,17 @@
+{
+  "name": "employee-app-backend-integration",
+  "version": "1.0.0",
+  "description": "SICTAK Assignment 3 - Employee App backend integration with MongoDB Atlas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
